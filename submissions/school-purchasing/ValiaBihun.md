@@ -30,7 +30,7 @@
 ### Приймання зрізу 4 (трек C)
 
 - Таблиця приймання PM: заповнено: вкладка school-purchasing, розробники @YarynaPankivv і @mvorobets-blip; @kdeineko-tech — не прийнято: «eval готовий» не надходив, 17.11; AC зрізу 4: AC-AI-01, AC-AI-02, AC-AI-03, AC-AI-04, AC-AI-05, AC-AI-06
-- Golden cases на проді: @YarynaPankivv: 10/10, прогін 17.11; @mvorobets-blip: 9/9 у браузері (кейси 1, 5, 6, 7, 9, 11, 12, 13, 14), кейс 8 — за UAT-звітом PASS, прогін 16.11
+- Golden cases на проді: @YarynaPankivv: 10/10, прогін 17.11; @mvorobets-blip: 9/10 на проді (кейси 1, 5, 6, 7, 9, 11, 12, 13, 14), кейс 8 — UAT-звіт PASS, 16.11; прогін 16.11
 - Звірка зі звітом eval: @mvorobets-blip: звіт eval 16.11 (`line-v4`, 10 з 10) звірено, мої результати на проді збігаються, розбіжностей немає; зауваження: звіт складається з двох файлів (14:10 — 9/9, GC-14 не запущено через ліміт; 14:11 — лише GC-14), у звіті немає SHA і режиму `reasoning`, `OPENROUTER_API_KEY` у Vercel Production не підтверджено. @YarynaPankivv: перевірено: розбіжностей немає — звіт eval з PR https://github.com/YarynaPankivv/school-purchasing/pull/95 звірено з моїм прогоном 10 golden cases на проді (10 з 10).
 - Відхилення від вимог: відхилень немає (оцінок 0–1 немає)
 - Підпис у репо розробників: https://github.com/YarynaPankivv/school-purchasing/pull/95#issuecomment-6944010257, https://github.com/mvorobets-blip/school-purchasing/pull/82#issuecomment-6922231060
